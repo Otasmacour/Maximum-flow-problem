@@ -19,7 +19,7 @@ The input describes an oriented graph, in the following format:
 ```
 # What does the output look like
 - On the first line is the result, that tells us, what is the maximum possible flow in the graph
-- The e lines (number of edges in the graph) contain information that informs us about the final flow of that edge in format "From + index number of the starting node + to + index number of the destination node + - + current flow(of that edge)/capacity(of that edge)"
+- The e lines (number of edges in the graph) contain information that informs us about the final flow of that edge in format "From + starting node index number + to + destination node index number + - + current flow(of that edge)/capacity(of that edge)"
 # What the output for the above input looks like
 ```txt
 Max flow is - 13
