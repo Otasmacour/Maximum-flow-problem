@@ -3,8 +3,8 @@ Implementation of Ford-Fulkerson Algorithm
 # What the input should look like
 The input describes an oriented graph, in the following format:
 - On the first line is the number of nodes  
-- On n lines are edge inputs based on the nth node in format "index number of that node (where the edge is pointing) + edge capacity"  
-- The last line shows the source and sink, in format "index number of source + index number of sink"
+- On n lines are numbers e, that tell, how many edges are coming out of the nth node, followed by the e of the edges in format "index number of that node (where the edge is pointing) + the capacity of the edge"  
+- The last line shows the source and the sink, in format "source index number + sink index number"
 # Example of correct input
 ```txt
 7 
